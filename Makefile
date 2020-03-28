@@ -7,4 +7,3 @@ build:
 
 push:
 	docker push $(NAME)
-	docker push $(NAME):$(VERSION)

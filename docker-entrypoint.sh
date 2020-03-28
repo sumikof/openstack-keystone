@@ -1,5 +1,5 @@
 #!/bin/bash
-set -e
+set -x
 
 render keystone.conf.template -o /etc/keystone/keystone.conf
 render logging.conf.template -o /etc/keystone/logging.conf
